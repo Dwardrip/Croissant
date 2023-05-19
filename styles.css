@@ -1,0 +1,75 @@
+:root {
+  --gradient: linear-gradient(to left top, #ceeb4c 20%, #afc6f1 80%);
+  --box-shadow: 5px 10px 10px rgba(0,0,0,0.6);
+}
+
+body {
+  background: var(--gradient);
+  padding: 0 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+p,
+footer {
+  text-align: center;
+}
+
+h1 {
+    text-decoration: solid;
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.croissants {
+  text-align: center;
+}
+
+.homepage-button {
+    background-color: rgb(25, 37, 218);
+    font-style: oblique;
+        font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all 200ms ease;
+    box-shadow: var(--box-shadow);
+
+}
+
+
+.picture {
+    background-color: rgb(115, 163, 4);
+    font-style: oblique;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all 200ms ease;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.contact {
+    background-color: rgb(113, 121, 7);
+    font-style: oblique;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all 200ms ease;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+   text-decoration: solid;
+
+}
